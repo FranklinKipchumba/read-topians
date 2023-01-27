@@ -38,7 +38,7 @@ import React from 'react';
 
 function Bookshelf({ selectedBooks, removeBook }) {
 return (
-<div className="container mt-2 form-control w-100">
+<div className="container mt-3 form-control w-100">
     <>
 <h2 className='text-center fw-bold'>BOOKS ADDED </h2>
     </>

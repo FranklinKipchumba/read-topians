@@ -94,7 +94,7 @@ function Search() {
 
   return (
   
-    <div className="container mb3 ">
+    <div class="container ">
       <form onSubmit={handleSearch} className="col-12 text-center">
       
         <div className="form-group">
