@@ -93,11 +93,13 @@ function Search() {
   }
 
   return (
+  
     <div className="container mb3 ">
       <form onSubmit={handleSearch} className="col-12 text-center">
+      
         <div className="form-group">
         <input
-          className="form-control w-50"
+          className="container mt-3 form-control w-100 text-center"
           type="search"
           placeholder="Search for books"
           aria-label="Search"
@@ -105,6 +107,7 @@ function Search() {
           onChange={e => setQuery(e.target.value)}
         />
         </div>
+        
         <div className="form-group ">
           <button className="btn btn-outline-success" type="submit">Search</button>
         </div>
